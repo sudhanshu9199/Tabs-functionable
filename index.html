@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tabs</title>
+  </head>
+  <body>
+    <nav>
+      <span class="tab-link active" data-tab="tab1">First Tab</span>
+      <span class="tab-link" data-tab="tab2">Second Tab</span>
+      <span class="tab-link" data-tab="tab3">Third Tab</span>
+      <span class="tab-link" data-tab="tab4">Fourth Tab</span>
+      <div class="underline"></div>
+    </nav>
+    <div class="tab-content">
+      <div class="tab active" id="tab1">
+        <p>
+          Clicking each tab should hide the content of the other tab and show
+          the content of clicked tab. By default, enable the first tab.
+        </p>
+        <div class="box">
+          <p>First Tab content to be displayed here.</p>
+        </div>
+        <p>Add some dummy content or just add a simple text showing the tab</p>
+      </div>
+      <div class="tab" id="tab2">
+        <p>
+          Welcome to Tab 2 <br />
+          Clicking each tab should hide the content of the other tab and show
+          the content of clicked tab. By default, enable the first tab.
+        </p>
+        <div class="box">
+          <p>Second Tab content to be displayed here.</p>
+        </div>
+        <p>Add some dummy content or just add a simple text showing the tab</p>
+      </div>
+      <div class="tab" id="tab3">
+        <p>
+          Welcome to Tab 3 <br />
+          Clicking each tab should hide the content of the other tab and show
+          the content of clicked tab. By default, enable the first tab.
+        </p>
+        <div class="box">
+          <p>third Tab content to be displayed here.</p>
+        </div>
+        <p>Add some dummy content or just add a simple text showing the tab</p>
+      </div>
+      <div class="tab" id="tab4">
+        <p>
+          Welcome to Tab 4 <br />
+          Clicking each tab should hide the content of the other tab and show
+          the content of clicked tab. By default, enable the first tab.
+        </p>
+        <div class="box">
+          <p>Fourth Tab content to be displayed here.</p>
+        </div>
+        <p>Add some dummy content or just add a simple text showing the tab</p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
